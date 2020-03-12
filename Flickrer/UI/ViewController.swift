@@ -12,9 +12,8 @@ public final class ViewController: UIViewController {
 
     override public func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print(Flickr.API.Oauth.RequestToken().path)
     }
-
 
 }
 

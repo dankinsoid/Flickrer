@@ -9,10 +9,10 @@
 import Moya
 
 extension Flickr.API {
-    public enum OAuth {}
+    public enum Oauth {}
 }
 
-extension Flickr.API.OAuth {
+extension Flickr.API.Oauth {
     
     public struct RequestToken: FlickrAPIProtocol {
         public struct Input {}
