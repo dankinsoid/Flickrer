@@ -5,8 +5,12 @@ target 'Flickrer' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Flickrer
-  
+  pod 'Moya', '~> 13.0'
+  pod 'Kingfisher', '~> 5.0'
+  pod 'SwiftGen', '~> 6.0'
+  pod 'PromiseKit', '~> 6.8'
+  pod 'CryptoSwift', '~> 1.0'
+  pod 'VDCodable'
 
   target 'FlickrerTests' do
     inherit! :search_paths

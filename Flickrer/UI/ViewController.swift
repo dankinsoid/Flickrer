@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+public final class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }

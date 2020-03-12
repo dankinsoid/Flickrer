@@ -1,3 +1,60 @@
-PODFILE CHECKSUM: c3bbfeaa3ceb4b1797face76b99bce727a6cefde
+PODS:
+  - Alamofire (4.9.1)
+  - CryptoSwift (1.3.0)
+  - Kingfisher (5.13.1):
+    - Kingfisher/Core (= 5.13.1)
+  - Kingfisher/Core (5.13.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - Result (4.1.0)
+  - SwiftGen (6.1.0)
+  - UnwrapOperator (0.1.0)
+  - VDCodable (0.31.0):
+    - UnwrapOperator
+
+DEPENDENCIES:
+  - CryptoSwift (~> 1.0)
+  - Kingfisher (~> 5.0)
+  - Moya (~> 13.0)
+  - PromiseKit (~> 6.8)
+  - SwiftGen (~> 6.0)
+  - VDCodable
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CryptoSwift
+    - Kingfisher
+    - Moya
+    - PromiseKit
+    - Result
+    - SwiftGen
+    - UnwrapOperator
+    - VDCodable
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CryptoSwift: 1283821600233bdbeb96d7b389c3288c3bf77211
+  Kingfisher: f33a848445e33c543620812158dc5d47f6bf90df
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+  UnwrapOperator: f1db2ac448c4bbd74fc19ddba8bcade22132f443
+  VDCodable: 088a869422f593d784065609d532e2b6790bce0a
+
+PODFILE CHECKSUM: 08d950d997bd408a1a3cecccf2156f3b65635de6
 
 COCOAPODS: 1.8.4

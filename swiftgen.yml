@@ -1,0 +1,21 @@
+xcassets:
+    inputs:
+        - Flickrer/Resources/
+    filter: .+\.xcassets$
+    outputs:
+        - templatePath: Flickrer/Resources/images.stencil
+          output: Flickrer/Resources/Generated/Images.swift
+          params:
+            enumName: FL
+            publicAccess: true
+            forceProvidesNamespaces: true
+storyboards:
+    inputs:
+        - Flickrer/UI/
+    filter: .+\.storyboard$
+    outputs:
+        - templatePath: Flickrer/Resources/storyboards.stencil
+          output: Flickrer/Resources/Generated/Storyboards.swift
+          params:
+            sceneEnumName: Storyboards
+            publicAccess: true
